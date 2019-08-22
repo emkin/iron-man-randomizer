@@ -1,0 +1,46 @@
+html {
+    height: 100%;
+}
+
+body {
+    text-align: center;
+    background: rgb(255,224,203);
+    background: linear-gradient(0deg, rgba(255,224,203,1) 0%, rgba(255,255,255,1) 100%);
+    font-family: Roboto;
+}
+
+.row {
+    display: flex;
+}
+
+img.played {
+    filter: grayscale(100%);
+}
+
+div#list {
+    display: inline-block;
+}
+
+div.character {
+    float: left;
+    margin: 8px;
+    text-align: center;
+}
+
+div.character:last-child {
+    margin: 8px auto;
+}
+
+img.attachment-full {
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+h4#madeBy {
+    margin-top: 64px;
+}
+
+h4#madeBy a {
+    text-decoration: none;
+}
