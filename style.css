@@ -2,10 +2,14 @@ html {
     height: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     text-align: center;
-    background: rgb(255,224,203);
-    background: linear-gradient(0deg, rgba(255,224,203,1) 0%, rgba(255,255,255,1) 100%);
+    background: rgb(201,220,254);
+    background: linear-gradient(0deg, rgba(201,220,254,1) 0%, rgba(255,255,255,1) 100%);
     font-family: Roboto;
 }
 
@@ -37,10 +41,19 @@ img.attachment-full {
     position: absolute;
 }
 
-h4#madeBy {
-    margin-top: 64px;
+div#social {
+    margin-top: 128px;
+    height: 1.5em;
 }
 
-h4#madeBy a {
-    text-decoration: none;
+div#social > * {
+    vertical-align: middle;
+}
+
+div#social > a > img:not(:first-child) {
+    margin-left: 0.5em;
+}
+
+div#social > a > img {
+    max-height: 100%;
 }

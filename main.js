@@ -60,7 +60,7 @@ randomized.forEach((character) => {
   let text = document.createTextNode(character.name);
   let br = document.createElement('br');
   let img = document.createElement('img');
-  img.src = './images/' + character.icon + '.jpg';
+  img.src = './assets/images/' + character.icon + '.jpg';
   img.style = 'width: 120px;';
   img.onclick = () => {
     if (img.classList.contains('played')) {
